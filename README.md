@@ -23,7 +23,7 @@ Open web browser at [http://localhost:8001](http://localhost:8001)
 Run mysql client:
 
 - `docker-compose exec db mysql -u root -p` 
-- `make sure to import the SQL file'
+- `make sure to import the SQL file`
 
 
 `Rules for the event:`
