@@ -1,0 +1,76 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+	font-weight: 300;
+	color: rgb(227,237,81);
+	margin: 0px;
+	padding: 20px 10px 0px;
+	background-image: url('./img/sequoia-brandmark.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+
+.textfield {
+	font-size: 18px;
+	color: #333333;
+	background: #F7F7F7;
+	border: 1px solid #CCCCCC;
+}
+
+input[type=text], [type=password], select, textarea {
+	width: 100%;
+	resize: vertical;
+	padding: 14px 12px;
+    background: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 1.25;
+    outline: none;
+    box-shadow: none;
+  }
+
+h1 {
+	color: rgb(227,237,81);
+	margin: 50px 0px 5px;
+	font: bold 40px Verdana, Arial, Helvetica, sans-serif;
+}
+a {
+	color:  rgb(227,237,81);
+	font-size: 13px;
+}
+a:hover {
+	color: #99CC00;
+}
+.err {
+	color: #FF9900;
+}
+th {
+	font-weight: bold;
+	text-align: left;
+}
+
+img {
+	max-width: 150px;
+	height: auto;
+  }
+
+input[type=submit] {
+	background-color: rgb(143,187,67);
+	color: white;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: center;
+	padding: 14px 16px;
+    font-family: inherit;
+    border: 1px solid #0697a2;
+    font-size: 16px;
+    line-height: 1.25;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: #99CC00;
+  }
