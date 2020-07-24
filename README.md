@@ -7,6 +7,15 @@ Use docker-compose as an orchestrator. To run these containers:
 ```
 docker-compose up -d
 ```
+To view logs
+```
+docker-compose logs -f
+```
+
+To bring down the service
+```
+docker-compose down -v
+```
 
 Open phpmyadmin at [http://localhost:8000](http://localhost:8000)
 Open web browser at [http://localhost:8001](http://localhost:8001)
@@ -14,9 +23,11 @@ Open web browser at [http://localhost:8001](http://localhost:8001)
 Run mysql client:
 
 - `docker-compose exec db mysql -u root -p` 
+- `make sure to import the SQL file'
 
 
 `Rules for the event:`
+
     - This is a Treasure Hunt
     - Once you reach the final level, follow the order there
     - There will be clues all around the page – in the page title, html, css, image name, urls, etc.,
