@@ -20,6 +20,8 @@ docker-compose down -v
 Open phpmyadmin at [http://localhost:8000](http://localhost:8000)
 Open web browser at [http://localhost:8001](http://localhost:8001)
 
+`Look into the answer table for changing your treasure levels.`
+
 Run mysql client:
 
 - `docker-compose exec db mysql -u root -p` 
